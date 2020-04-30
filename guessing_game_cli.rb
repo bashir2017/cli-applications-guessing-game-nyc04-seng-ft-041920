@@ -5,7 +5,7 @@ def generate_a_number
 end 
 
 def prompt_user_guess 
-  puts ""
+  puts "Please guess a number"
 end 
 
 def user_input 
