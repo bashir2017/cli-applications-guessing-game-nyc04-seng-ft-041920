@@ -1,4 +1,5 @@
 # Code your solution here!
+require 'pry'
 
 def generate_a_number 
   rand(6) + 1 
@@ -13,6 +14,7 @@ def user_input
 end 
 
 def check_input(user, comp) 
+  binding.pry 
   if user == comp 
     puts "You guessed the correct number!"
   elsif user == "exit"
