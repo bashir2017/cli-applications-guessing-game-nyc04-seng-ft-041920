@@ -1,5 +1,4 @@
 # Code your solution here!
-require 'pry'
 
 def generate_a_number 
   rand(6) + 1 
