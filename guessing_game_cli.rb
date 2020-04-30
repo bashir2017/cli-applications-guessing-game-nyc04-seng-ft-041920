@@ -24,7 +24,7 @@ end
 
 
 def run_guessing_game 
-  comp = generate_a_number
+  comp = generate_a_number()
   prompt_user_guess
   user = user_input()
   check_input(user, comp)
