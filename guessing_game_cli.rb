@@ -14,7 +14,6 @@ def user_input
 end 
 
 def check_input(user, comp) 
-  binding.pry 
   if user == comp 
     puts "You guessed the correct number!"
   elsif user == "exit"
@@ -29,5 +28,6 @@ def run_guessing_game
   comp = generate_a_number()
   prompt_user_guess
   user = user_input()
+  binding.pry 
   check_input(user, comp)
 end 
