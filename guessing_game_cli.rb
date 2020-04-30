@@ -13,7 +13,7 @@ def user_input
 end 
 
 def check_input(user, comp) 
-  if user == comp 
+  if user != comp 
     puts "You guessed the correct number!"
   elsif user == "exit"
     puts "Goodbye!"
