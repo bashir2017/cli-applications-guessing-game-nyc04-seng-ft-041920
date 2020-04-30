@@ -9,11 +9,17 @@ def prompt_user_guess
 end 
 
 def user_input 
-  input = gets
+  input = gets.chomp 
 end 
 
-def check_input 
-  
+def check_input(user, comp) 
+  if user == comp 
+    puts "You guessed the correct number!"
+  elsif user == "exit"
+    puts "Goodby!"
+  else 
+    puts ""
+  end 
 end 
 
 
