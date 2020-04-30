@@ -5,11 +5,11 @@ def generate_a_number
 end 
 
 def prompt_user_guess 
-  get 
+  puts ""
 end 
 
 def user_input 
-  
+  input = gets
 end 
 
 def check_input 
