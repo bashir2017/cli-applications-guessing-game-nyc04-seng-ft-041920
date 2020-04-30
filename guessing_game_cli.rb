@@ -18,7 +18,7 @@ def check_input(user, comp)
   elsif user == "exit"
     puts "Goodby!"
   else 
-    puts ""
+    puts "Sorry! The computer guessed #{comp}."
   end 
 end 
 
